@@ -1,0 +1,74 @@
+.nav__list{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+}
+
+.nav__item{
+    display: flex;
+}
+
+
+.nav__icons{
+    margin-right: 20px;
+}
+.nav__link{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    
+}
+
+.tweet__button{
+    width: 230px;
+    height: 55px;
+    left: 155px;
+    top: 577px;
+    border: none;
+    background: #1D9BF0;
+    border-radius: 27.5px;
+    margin-right: 53px;
+    margin-bottom: 260px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.nav__link{
+    text-decoration: none;
+}
+
+.influencer{
+    display: flex;
+}
+
+
+.first__image{
+    margin-right: 10px;
+}
+
+.influencer__name{
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+.influencer__text{
+    margin-top: 0;
+    margin-right: 42px;
+
+}
+
+.influencer__info{
+    margin: 0;
+    padding: 0;
+}
+
+.points__img{
+    margin-right: 15px;
+}

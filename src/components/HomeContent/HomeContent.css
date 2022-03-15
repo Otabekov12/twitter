@@ -1,0 +1,150 @@
+.home__title{
+    width: 69px;
+    height: 32px;
+    left: 459px;
+    top: 20px;
+    margin-left: 20px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.container-center {
+    width: 100%;
+    max-width: 909px;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+}
+
+.home__header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.users__text{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 29px;
+    color: #828282;
+}
+
+.first__box{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.user__image{
+    margin-right: 15px;
+}
+
+.home__icon{
+    margin-right: 20.75px;
+}
+
+.home__title{
+    text-decoration: none;
+}
+.users {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.users__icon{
+    margin-right: 23px;
+    
+}
+
+.ico{
+    margin-left: 99px;
+}
+
+.user__btn{
+    width: 108px;
+    height: 50px;
+    right: 590px;
+    bottom: 1594.37px;
+    background: #1DA1F2;
+    opacity: 0.4;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 120px;
+    border: none;
+    right: auto;
+    
+    
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 100%;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.comments__list{
+    list-style-type: none;
+    padding: 0;
+}
+
+.comments__item{
+    display: flex;
+    margin-top: 30px;
+    border-bottom: 1px solid #000;
+}
+
+.comment__icon__list{
+    display: flex;
+}
+.comment__icon__item{
+    display: flex;
+    list-style-type: none;
+}
+
+.comment__icons{
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+
+.users__image{
+    margin-right: 15px;
+    margin-left: 25px;
+}
+
+.users-name{
+    display: inline;
+    margin-right: 5px;
+}
+
+.content__image{
+    margin-right: 130px;
+}
+
+.comment__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-right: 50px;
+}
+
+.user__btn{
+    margin-bottom: 6px;
+}
+
+.comment__btn{
+    width: 17px;
+    height: 4px;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    border: none;
+    background-color: transparent;
+    background-image: url(../../images/points.svg);
+}
