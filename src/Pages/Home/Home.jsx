@@ -6,14 +6,15 @@ import "./Home.css"
 function PagesHome(){
     return(
         <>
-        <div className="Home">
+       
+            <div className="Home">
 
-              <SiteBar/> 
-              <HomeContent/>
-              <RightContent/>
+                <SiteBar/> 
+                <HomeContent/>
+                <RightContent/>
 
 
-        </div>
+            </div>
         </>
     )
 }

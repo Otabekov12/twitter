@@ -20,7 +20,7 @@ function SiteBar(){
     return(
         <>
 
-        <div>
+        <div className='sitebar__hero'>
             <nav className='twitter__navbar'>
             <div className='sitebar'>
                 <a href="#">

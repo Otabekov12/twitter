@@ -114,14 +114,19 @@ function HomeContent(){
                                 <img className='users__image' src={cloutexhibition} alt="users"   width={60} height={60}/>
 
                                 <div>
-                                    <h3 className='users-name'>cloutexhibition</h3> 
-                                    <span>@RajLahoti · 22m</span>
-                                    <p className='comment__text'>
-                                        YPIP dasturining bu yilgi sezoni ham
-                                        o’z nihoyasiga yetmoqda. 
-                                        Mentorlik davomida talaba va yangi bitiruvchilarni
-                                        o’sayotganini ko’rib hursand bo’ladi odam.
-                                    </p>
+                                    <div  className='comment__box' >
+                                        <div className='comment__info__box' >
+                                            <h3 className='users-name'>cloutexhibition</h3> 
+                                            <span>@RajLahoti · 22m</span>
+                                            <p className='comment__text'>
+                                                YPIP dasturining bu yilgi sezoni ham
+                                                o’z nihoyasiga yetmoqda. 
+                                                Mentorlik davomida talaba va yangi bitiruvchilarni
+                                                o’sayotganini ko’rib hursand bo’ladi odam.
+                                            </p>
+                                        </div>
+                                        <button className='comment__btn' title='more'></button>
+                                    </div>
 
                                     <ul className='comment__icon__list'>
                                         <li className='comment__icon__item'>
@@ -152,8 +157,13 @@ function HomeContent(){
                                 <img className='users__image' src={ CreativePhoto } alt="users"   width={60} height={60}/>
 
                                 <div>
-                                    <h3 className='users-name'>CreativePhoto</h3> 
-                                    <span>@cloutexhibition · 1h</span>
+                                    <div className='comment__box'>
+                                        <div className='comment__info__box' >
+                                            <h3 className='users-name'>CreativePhoto</h3> 
+                                            <span>@cloutexhibition · 1h</span>
+                                        </div>
+                                        <button className='comment__btn' title='more'></button>
+                                    </div>
                                     <p className='comment__text'>
                                         Обетда..... 
                                         <br />

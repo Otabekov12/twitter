@@ -11,11 +11,156 @@
     font-size: 18px;
     line-height: 24px;
     color: #5C6C79;
-
+    
     background-image: url('../../images/search.svg');
     background-repeat: no-repeat;
     background-position: 20px 50%;
+}
 
+.right__side{
+    margin-top: 13.6px;
+    margin-left:5px;
+}
 
+.right__header{
+    margin-bottom: 20px;
+}
+
+.trends__section{
+    width: 373px;
+    height: 540px;
+    background: #F7F9F9;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.trends__header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.trends__image{
+    margin-right: 7.3px;
+}
+
+.trneds__title{
+    margin-left: 12px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
     
 }
+
+.trends__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-right: 50px;
+}
+
+.trends__btn{
+    width: 17px;
+    height: 4px;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    border: none;
+    background-color: transparent;
+    background-image: url(../../images/points.svg);
+}
+
+.trend__link{
+    text-decoration: none;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #1DA1F2;
+    margin-left: 13px;
+    margin-bottom: 20px;
+}
+
+.trends__text{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #393B41;
+    opacity: 0.6;
+}
+
+.trneds__titles{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    
+}
+
+.comment__info__box{
+    margin-left: 13px;
+}
+
+.trends__btn{
+    margin-top: 36px;
+}
+
+.recommended__blok{
+    background: #F7F9F9;
+    border-radius: 10px;
+    width: 373px;
+    height: 300px;
+
+}
+
+.recommended{
+    display: flex;
+}
+
+.recommended__btn{
+    width: 107px;
+    height: 45px;
+    background: #000000;
+    border-radius: 50px;
+    border: none;
+    margin-top: 24px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    color: #FFFFFF;
+    
+}
+
+.recommended__users{
+    margin-right: 19px;
+}
+
+.recommended__person{
+    margin-right: 36px;
+}
+
+.recommended__hero{
+    margin-left: 12px;
+}
+
+.recommended__users{
+    margin-left: 15px;
+}
+
+.recommended__blok{
+    margin-left: 5px;
+}
+
+.show{
+    margin-bottom: 20px;
+}
+
